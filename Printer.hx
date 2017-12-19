@@ -8,17 +8,6 @@ class Printer{
 		var lines:Int = Std.parseInt(args[0]);
 		var chars:Int = args.length>1?Std.parseInt(args[1]):10;
 
-		Sys.print(String.fromCharCode(13));
-		Sys.print(String.fromCharCode(13));
-		Sys.print(String.fromCharCode(13));
-		Sys.print(String.fromCharCode(13));
-		Sys.print(String.fromCharCode(13));
-		Sys.print(String.fromCharCode(13));
-		Sys.print(String.fromCharCode(13));
-		Sys.print(String.fromCharCode(13));
-		Sys.print(String.fromCharCode(13));
-		Sys.print(String.fromCharCode(13));
-
 		for(i in 0...lines){
 			for(v in 0...chars){
 				var cc_start = 33;
